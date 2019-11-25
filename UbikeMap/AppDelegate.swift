@@ -24,13 +24,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let moyaProvider = MoyaProvider<UBikeService>()
         moyaProvider.request(.init()) { (result) in
-            do {
-                let stations = try result.get()
-                    .map(DynamicKeyContainer<UbikeStation>.self, atKeyPath: "retVal", using: UBikeService.decoder)
-                    .items
-                navigator.open("replace_tabbar", context: ["stations": stations])
-            } catch {
-                print(error)
+            DispatchQueue.global(qos: .background)
+                .async {
+                    do {
+                        let stations = try result.get()
+                            .map(DynamicKeyContainer<UbikeStation>.self, atKeyPath: "retVal", using: UBikeService.decoder)
+                            .items
+                        DispatchQueue.main.async {
+                            navigator.open("replace_tabbar", context: ["stations": stations])
+                        }
+                    } catch {
+                        print(error)
+                    }
             }
         }
         
