@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A72BCEC358B2282530D048C /* Pods_UbikeMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AE281B6FDE604B3822DFC1 /* Pods_UbikeMap.framework */; };
+		8E6A3D1E238BD9E400FACD05 /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A3D1D238BD9E400FACD05 /* ListItemCell.swift */; };
+		8E6A3D20238BE66900FACD05 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A3D1F238BE66900FACD05 /* MapViewController.swift */; };
+		8E6A3DA0238BEDB400FACD05 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A3D9F238BEDB400FACD05 /* MapModel.swift */; };
+		8E6A3DA2238BFBD000FACD05 /* YouBikeTP in Resources */ = {isa = PBXBuildFile; fileRef = 8E6A3DA1238BFBD000FACD05 /* YouBikeTP */; };
+		8EDC0DCA238B9A5500F0742F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0DC9238B9A5500F0742F /* AppDelegate.swift */; };
+		8EDC0DCF238B9A5500F0742F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC0DCD238B9A5500F0742F /* Main.storyboard */; };
+		8EDC0DD1238B9A5600F0742F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC0DD0238B9A5600F0742F /* Assets.xcassets */; };
+		8EDC0DD4238B9A5600F0742F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC0DD2238B9A5600F0742F /* LaunchScreen.storyboard */; };
+		8EDC0DF6238B9B4200F0742F /* UBikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0DF5238B9B4200F0742F /* UBikeService.swift */; };
+		8EDC0E33238BA00D00F0742F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E32238BA00D00F0742F /* ListViewController.swift */; };
+		8EDC0E35238BA01C00F0742F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E34238BA01C00F0742F /* ListViewModel.swift */; };
+		8EDC0E38238BA08B00F0742F /* UserFavoriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E37238BA08B00F0742F /* UserFavoriteService.swift */; };
+		8EDC0E3A238BA0B900F0742F /* ListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E39238BA0B900F0742F /* ListModels.swift */; };
+		8EDC0E3C238BA57C00F0742F /* UBikeServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E3B238BA57C00F0742F /* UBikeServiceModel.swift */; };
+		8EDC0E3E238BA5C000F0742F /* DynamicKeyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E3D238BA5C000F0742F /* DynamicKeyContainer.swift */; };
+		8EDC0E41238BB1CA00F0742F /* AppDelegate+RegisterViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E40238BB1CA00F0742F /* AppDelegate+RegisterViews.swift */; };
+		8EDC0E44238BBD2C00F0742F /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E43238BBD2C00F0742F /* MVVM.swift */; };
+		8EDC0E46238BBEB600F0742F /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC0E45238BBEB600F0742F /* MapViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20AE281B6FDE604B3822DFC1 /* Pods_UbikeMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UbikeMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38217D713A2CAB04098B8788 /* Pods-UbikeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UbikeMap.release.xcconfig"; path = "Target Support Files/Pods-UbikeMap/Pods-UbikeMap.release.xcconfig"; sourceTree = "<group>"; };
+		393B14B681453BB167280B00 /* Pods-UbikeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UbikeMap.debug.xcconfig"; path = "Target Support Files/Pods-UbikeMap/Pods-UbikeMap.debug.xcconfig"; sourceTree = "<group>"; };
+		8E6A3D1D238BD9E400FACD05 /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		8E6A3D1F238BE66900FACD05 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8E6A3D9F238BEDB400FACD05 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		8E6A3DA1238BFBD000FACD05 /* YouBikeTP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YouBikeTP; sourceTree = "<group>"; };
+		8EDC0DC6238B9A5500F0742F /* UbikeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UbikeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC0DC9238B9A5500F0742F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EDC0DCE238B9A5500F0742F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EDC0DD0238B9A5600F0742F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EDC0DD3238B9A5600F0742F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EDC0DD5238B9A5600F0742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDC0DF5238B9B4200F0742F /* UBikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBikeService.swift; sourceTree = "<group>"; };
+		8EDC0E32238BA00D00F0742F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8EDC0E34238BA01C00F0742F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		8EDC0E37238BA08B00F0742F /* UserFavoriteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFavoriteService.swift; sourceTree = "<group>"; };
+		8EDC0E39238BA0B900F0742F /* ListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModels.swift; sourceTree = "<group>"; };
+		8EDC0E3B238BA57C00F0742F /* UBikeServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBikeServiceModel.swift; sourceTree = "<group>"; };
+		8EDC0E3D238BA5C000F0742F /* DynamicKeyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicKeyContainer.swift; sourceTree = "<group>"; };
+		8EDC0E40238BB1CA00F0742F /* AppDelegate+RegisterViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+RegisterViews.swift"; sourceTree = "<group>"; };
+		8EDC0E43238BBD2C00F0742F /* MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM.swift; sourceTree = "<group>"; };
+		8EDC0E45238BBEB600F0742F /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDC0DC3238B9A5500F0742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A72BCEC358B2282530D048C /* Pods_UbikeMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDC0DBD238B9A5500F0742F = {
+			isa = PBXGroup;
+			children = (
+				8EDC0DC8238B9A5500F0742F /* UbikeMap */,
+				8EDC0DC7238B9A5500F0742F /* Products */,
+				FE02C35B30AF9B29C215A585 /* Pods */,
+				CCEC07131F2306D0FF7C47E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDC0DC7238B9A5500F0742F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0DC6238B9A5500F0742F /* UbikeMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDC0DC8238B9A5500F0742F /* UbikeMap */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E42238BBD2100F0742F /* Core */,
+				8EDC0E3F238BB17C00F0742F /* Utils */,
+				8EDC0E36238BA04700F0742F /* Services */,
+				8EDC0E2F238B9F7400F0742F /* 列表 */,
+				8EDC0E30238B9F7B00F0742F /* 地圖 */,
+				8EDC0DC9238B9A5500F0742F /* AppDelegate.swift */,
+				8EDC0E40238BB1CA00F0742F /* AppDelegate+RegisterViews.swift */,
+				8EDC0DCD238B9A5500F0742F /* Main.storyboard */,
+				8EDC0DD0238B9A5600F0742F /* Assets.xcassets */,
+				8E6A3DA1238BFBD000FACD05 /* YouBikeTP */,
+				8EDC0DD2238B9A5600F0742F /* LaunchScreen.storyboard */,
+				8EDC0DD5238B9A5600F0742F /* Info.plist */,
+			);
+			path = UbikeMap;
+			sourceTree = "<group>";
+		};
+		8EDC0E2F238B9F7400F0742F /* 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E32238BA00D00F0742F /* ListViewController.swift */,
+				8E6A3D1D238BD9E400FACD05 /* ListItemCell.swift */,
+				8EDC0E34238BA01C00F0742F /* ListViewModel.swift */,
+				8EDC0E39238BA0B900F0742F /* ListModels.swift */,
+			);
+			path = "列表";
+			sourceTree = "<group>";
+		};
+		8EDC0E30238B9F7B00F0742F /* 地圖 */ = {
+			isa = PBXGroup;
+			children = (
+				8E6A3D1F238BE66900FACD05 /* MapViewController.swift */,
+				8EDC0E45238BBEB600F0742F /* MapViewModel.swift */,
+				8E6A3D9F238BEDB400FACD05 /* MapModel.swift */,
+			);
+			path = "地圖";
+			sourceTree = "<group>";
+		};
+		8EDC0E36238BA04700F0742F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0DF5238B9B4200F0742F /* UBikeService.swift */,
+				8EDC0E3B238BA57C00F0742F /* UBikeServiceModel.swift */,
+				8EDC0E37238BA08B00F0742F /* UserFavoriteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8EDC0E3F238BB17C00F0742F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E3D238BA5C000F0742F /* DynamicKeyContainer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8EDC0E42238BBD2100F0742F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC0E43238BBD2C00F0742F /* MVVM.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CCEC07131F2306D0FF7C47E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20AE281B6FDE604B3822DFC1 /* Pods_UbikeMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE02C35B30AF9B29C215A585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				393B14B681453BB167280B00 /* Pods-UbikeMap.debug.xcconfig */,
+				38217D713A2CAB04098B8788 /* Pods-UbikeMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDC0DC5238B9A5500F0742F /* UbikeMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDC0DD8238B9A5600F0742F /* Build configuration list for PBXNativeTarget "UbikeMap" */;
+			buildPhases = (
+				FAFF1F8809622D24D005C9AF /* [CP] Check Pods Manifest.lock */,
+				8EDC0DC2238B9A5500F0742F /* Sources */,
+				8EDC0DC3238B9A5500F0742F /* Frameworks */,
+				8EDC0DC4238B9A5500F0742F /* Resources */,
+				2B25E8D077D875590C19E732 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UbikeMap;
+			productName = UbikeMap;
+			productReference = 8EDC0DC6238B9A5500F0742F /* UbikeMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDC0DBE238B9A5500F0742F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ObiCat;
+				TargetAttributes = {
+					8EDC0DC5238B9A5500F0742F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 8EDC0DC1238B9A5500F0742F /* Build configuration list for PBXProject "UbikeMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDC0DBD238B9A5500F0742F;
+			productRefGroup = 8EDC0DC7238B9A5500F0742F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDC0DC5238B9A5500F0742F /* UbikeMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDC0DC4238B9A5500F0742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC0DD4238B9A5600F0742F /* LaunchScreen.storyboard in Resources */,
+				8E6A3DA2238BFBD000FACD05 /* YouBikeTP in Resources */,
+				8EDC0DD1238B9A5600F0742F /* Assets.xcassets in Resources */,
+				8EDC0DCF238B9A5500F0742F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B25E8D077D875590C19E732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UbikeMap/Pods-UbikeMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UbikeMap/Pods-UbikeMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UbikeMap/Pods-UbikeMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFF1F8809622D24D005C9AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UbikeMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDC0DC2238B9A5500F0742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6A3DA0238BEDB400FACD05 /* MapModel.swift in Sources */,
+				8EDC0E3A238BA0B900F0742F /* ListModels.swift in Sources */,
+				8EDC0DF6238B9B4200F0742F /* UBikeService.swift in Sources */,
+				8EDC0E41238BB1CA00F0742F /* AppDelegate+RegisterViews.swift in Sources */,
+				8EDC0E3C238BA57C00F0742F /* UBikeServiceModel.swift in Sources */,
+				8EDC0E38238BA08B00F0742F /* UserFavoriteService.swift in Sources */,
+				8E6A3D1E238BD9E400FACD05 /* ListItemCell.swift in Sources */,
+				8EDC0E44238BBD2C00F0742F /* MVVM.swift in Sources */,
+				8EDC0E35238BA01C00F0742F /* ListViewModel.swift in Sources */,
+				8EDC0E3E238BA5C000F0742F /* DynamicKeyContainer.swift in Sources */,
+				8EDC0E33238BA00D00F0742F /* ListViewController.swift in Sources */,
+				8EDC0DCA238B9A5500F0742F /* AppDelegate.swift in Sources */,
+				8EDC0E46238BBEB600F0742F /* MapViewModel.swift in Sources */,
+				8E6A3D20238BE66900FACD05 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EDC0DCD238B9A5500F0742F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDC0DCE238B9A5500F0742F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EDC0DD2238B9A5600F0742F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDC0DD3238B9A5600F0742F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EDC0DD6238B9A5600F0742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EDC0DD7238B9A5600F0742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDC0DD9238B9A5600F0742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393B14B681453BB167280B00 /* Pods-UbikeMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UbikeMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obicat.UbikeMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EDC0DDA238B9A5600F0742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38217D713A2CAB04098B8788 /* Pods-UbikeMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UbikeMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obicat.UbikeMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDC0DC1238B9A5500F0742F /* Build configuration list for PBXProject "UbikeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC0DD6238B9A5600F0742F /* Debug */,
+				8EDC0DD7238B9A5600F0742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDC0DD8238B9A5600F0742F /* Build configuration list for PBXNativeTarget "UbikeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC0DD9238B9A5600F0742F /* Debug */,
+				8EDC0DDA238B9A5600F0742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EDC0DBE238B9A5500F0742F /* Project object */;
+}

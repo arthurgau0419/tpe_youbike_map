@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Differentiator (3.1.0)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxMKMapView (4.4.0):
+    - RxCocoa (~> 4.4)
+    - RxSwift (~> 4.4)
+  - RxSwift (4.5.0)
+  - URLNavigator (2.2.0)
+
+DEPENDENCIES:
+  - Moya/RxSwift
+  - RxCocoa
+  - RxDataSources
+  - RxMKMapView
+  - RxSwift
+  - URLNavigator
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Differentiator
+    - Moya
+    - Result
+    - RxCocoa
+    - RxDataSources
+    - RxMKMapView
+    - RxSwift
+    - URLNavigator
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxMKMapView: e413c9f349df894254ed6b15fccee3952ac86dc6
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  URLNavigator: 0bffc3efdeb2d97f7b5eec7ac82d290f4a099431
+
+PODFILE CHECKSUM: 64218a52f044075d4abcdffd9cc4b4ffcdcc7c23
+
+COCOAPODS: 1.8.4
